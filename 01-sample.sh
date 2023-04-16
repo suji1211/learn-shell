@@ -1,6 +1,6 @@
 ls -l
 
-uname -u
+uname -a
 
 yum list installed
 
