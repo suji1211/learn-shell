@@ -12,3 +12,11 @@ echo name = ${name}
 
  ARTH=$((2+3*4/2))
  echo ARTH= ${ARTH}
+
+
+#special variables for inputs
+ echo Script name - $0
+ echo First Argument -$1
+ echo Second Argument -$2
+ echo All arguments -$*
+ echo No of arguments -$#
